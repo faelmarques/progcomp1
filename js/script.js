@@ -1,3 +1,3 @@
 function mensagem(){
-    alert('Agora você está me seguindo!')
+    alert('Obrigado por me seguir!')
 }

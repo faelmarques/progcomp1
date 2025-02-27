@@ -1,37 +1,52 @@
-        body {
-            font-family: Arial, sans-serif; /* Fonte */ 
-            display: flex; /* Usa o FlexBox para exibir o conteúdo*/
-            justify-content: center; /* Centraliza na horizontal (eixo x)*/
-            height: 100vh; /*Altura da página é todo o conteúdo dela*/
-            align-items: center; /* Centraliza na vertical (eixo y)*/
-            background-color: gray
-        }
-        .container{
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 2.5px 2.5px;
-            text-align: center;
-        }
-        h2 {
-            padding: 10px;
-        }
-        button{
-            background-color: rgba(128, 128, 128, 0.57);
-            border-radius: 5.5px;
-            border: none;
-            padding: 8px;
-            cursor: pointer;
-        }
+body {
+  font-family: Arial, sans-serif; /* Fonte */
+  display: flex; /* Usa o FlexBox para exibir o conteúdo*/
+  justify-content: center; /* Centraliza na horizontal (eixo x)*/
+  height: 100vh; /*Altura da página é todo o conteúdo dela*/
+  align-items: center; /* Centraliza na vertical (eixo y)*/
+  background: linear-gradient(50deg, #d3d3d3, #1a1a1a);
+}
 
-        /* efeito de passar o mouse no botão */
-        button:hover{
-            background-color: rgba(54, 54, 54, 0.46);
-        }
-        
-        .imagem{
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-        margin-bottom: 10px;
-        }
+.nome {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 5px; /* Reduz o espaço abaixo do nome */
+}
+
+.curso {
+  font-size: 18px;
+  margin-top: 0; /* Remove o espaço acima do curso */
+}
+
+.container {
+  background-color: rgb(213, 213, 213);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2.5px 2.5px;
+  text-align: center;
+  padding: 30px;
+}
+h2 {
+  padding: 10px;
+}
+button {
+  background-color: rgba(128, 128, 128, 0.57);
+  border-radius: 5.5px;
+  border: none;
+  font-weight: bold;
+  color: rgb(56, 56, 56);
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* efeito de passar o mouse no botão */
+button:hover {
+  background-color: rgba(54, 54, 54, 0.46);
+}
+
+.imagem {
+  border-radius: 50%;
+  width: 140;
+  height: 160px;
+  margin-bottom: 10px;
+}
