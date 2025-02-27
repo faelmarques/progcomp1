@@ -4,7 +4,8 @@ body {
   justify-content: center; /* Centraliza na horizontal (eixo x)*/
   height: 100vh; /*Altura da página é todo o conteúdo dela*/
   align-items: center; /* Centraliza na vertical (eixo y)*/
-  background: linear-gradient(50deg, #d3d3d3, #1a1a1a);
+  background-image: url("https://www.meutimao.com.br/_upload/wallpapers/torcida_do_corinthians_g7_1920x1080.jpg");
+  background-size: cover;
 }
 
 .nome {
