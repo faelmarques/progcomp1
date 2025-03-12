@@ -12,3 +12,24 @@ header {
   padding: 15px 0px;
   font-size: 24px;
 }
+
+nav{
+  background: #007bff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#links-menu{
+  display: flex;
+  gap: 15px; /*distancia*/
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 3px 15px;
+  font-size: 15px;
+  background-color: blue;
+  border-radius: 5px;
+}
