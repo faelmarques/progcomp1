@@ -10,20 +10,37 @@ header {
   background-color: #030588;
   color: white;
   padding: 15px 0px;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: bold;
+  width: 200%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  width: auto;
+  gap: 376px;
 }
+
 .img-trote {
   width: 125px;
   height: 125px;
-  margin-bottom: 10px;
-  justify-content: right;
+  padding: 0px 50px;
+  display: flex;
+}
+.logo-facef {
+  width: 125px;
+  height: 125px;
+  padding: 0px 50px;
+  width: auto;
+  display: flex;
 }
 nav {
   background: #1c32a2;
   padding: 10px;
   display: flex;
   align-items: center;
+  font-weight: bold;
+  justify-content: center;
+  width: auto;
 }
 
 #links-menu {
