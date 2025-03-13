@@ -5,7 +5,6 @@ body {
   background-color: #f4f4f4;
   text-align: center;
 }
-
 header {
   background-color: #030588;
   color: white;
@@ -25,6 +24,7 @@ header {
   height: 125px;
   padding: 0px 50px;
   display: flex;
+  border-radius: 10px;
 }
 .logo-facef {
   width: 125px;
@@ -47,7 +47,6 @@ nav {
   display: flex;
   gap: 15px; /*distancia*/
 }
-
 nav a {
   color: white;
   text-decoration: none;
@@ -55,4 +54,16 @@ nav a {
   font-size: 15px;
   background-color: #030588;
   border-radius: 5px;
+}
+
+.container{
+  width: 80%;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: justify;  
+}
+
+h2{
+  text-align: center;
 }
